@@ -1,0 +1,52 @@
+/*code about container*/
+.container-first{
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.755);
+    z-index: 2;
+}
+
+/*menu*/
+.nav-item.active{
+    border-bottom: 2px solid #fff;
+}
+
+.layout-information{
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+
+/*Parte of the information area*/
+.area{
+    font-size: 1.5rem;
+    background: #0000002f;
+    color: aliceblue;
+    padding: 15px;
+}
+
+
+.temperature{
+    font-size: 5rem;
+}
+
+/*Part of details*/
+.speed i, .humidity i, .pressure i, .visibility i{
+    font-size: 1.5rem;
+    color:#f99188;
+    padding: 5px 0;
+}
+
+.details h3{
+    font-size: 1rem;
+
+}
+
+.container .information-area .information-right i{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+/*background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);*/
